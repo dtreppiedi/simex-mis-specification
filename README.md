@@ -21,7 +21,7 @@
 ### 02_SIMEX_SOI_Nino34_Application.R
 
 <p align="justify">
-  This code returns the output used in the application of SIMEX for the seasonal forecasting of the Southern Oscillation Index (SOI) in February as a function of sea   surface temperature (SST) forecasts in the Niño3.4 region (Figure 2 in the draft). The input data are stored in the <b>02_DATA<\b> folder.
+  This code returns the output used in the application of SIMEX for the seasonal forecasting of the Southern Oscillation Index (SOI) in February as a function of sea   surface temperature (SST) forecasts in the Niño3.4 region (Figure 2 in the draft). The input data are stored in the <b>02_DATA</b> folder.
 </p>
 
 
