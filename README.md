@@ -21,7 +21,7 @@
 ### 02_SIMEX_SOI_Nino34_Application.R
 
 <p align="justify">
-  This code returns the output used in the application of SIMEX for the seasonal forecasting of the Southern Oscillation Index (SOI) in February as a function of sea   surface temperature (SST) forecasts in the Niño3.4 region (Figure 2 in the draft). The input data are stored in the <b>DATA</b> folder. The SOI data are downloaded from the National Oceanic and Atmospheric Administration (<a href="https://www.ncei.noaa.gov/access/monitoring/enso/soi">NOAA</a>), while the SST are computed by averaging the 12 members of the GFDL-CM2p5-FLOR-B01 by the Geophysical Fluid Dynamics Laboratory and part of the North American Multi-Model Ensemble (<a href="https://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-CM2p5-FLOR-B01/.MONTHLY/">NMME</a>)
+  This code returns the output used in the application of SIMEX for the seasonal forecasting of the Southern Oscillation Index (SOI) in February as a function of sea   surface temperature (SST) forecasts in the Niño3.4 region (Figure 2 in the draft). The input data are stored in the <b>DATA</b> folder. The SOI data are downloaded from the National Oceanic and Atmospheric Administration (<a href="https://www.ncei.noaa.gov/access/monitoring/enso/soi">NOAA</a>), while the SST are computed by averaging the 12 members of the GFDL-CM2p5-FLOR-B01 by the Geophysical Fluid Dynamics Laboratory and part of the North American Multi-Model Ensemble (<a href="https://iridl.ldeo.columbia.edu/SOURCES/.Models/.NMME/.GFDL-CM2p5-FLOR-B01/.MONTHLY/">NMME</a>).
 </p>
 
 
