@@ -23,7 +23,7 @@ sig_u=seq(0.3, 0.6, length.out=41)
 
 lambdas=c(0.5, 1, 1.5, 2, 2.5, 3)
 
-n=400 #sample size
+n=400
 
 RES_TAB=data.frame(n=NA,
                    mu_u=NA,
@@ -56,7 +56,7 @@ for(m in 1:length(mu_u)){
     cat('   Processing sigma', sig_cons,'\n')
     
     
-    err=rnorm(n, mean = mu_cons , sd = sig_cons) #standard Gaussian variate that I can use to obtain U
+    err=rnorm(n, mean = mu_cons , sd = sig_cons) #standard Gaussian variate used to obtain U
     w=x+err  #X+U
     
     naive.model <- lm(y~w, x=TRUE)
